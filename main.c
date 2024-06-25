@@ -3,7 +3,7 @@
 #include <Adafruit_Sensor.h>
 #include <LiquidCrystal_I2C.h>
 #include <DHT.h>
-LiquidCrystal_I2C lcd(0x27, 16, 2); // Alamat I2C dari LCD dan ukuran (16x2)
+LiquidCrystal_I2C lcd(0x27, 20, 4); // Alamat I2C dari LCD dan ukuran (20x4)
 DHT dht(2, DHT11); // Pin data sensor DHT dan jenis sensor (DHT11)
 int powerPin = 3;  // Pin untuk mengontrol daya (pengganti VCC/5V)
 int kipas = 4; // Pin untuk mengontrol kipas
